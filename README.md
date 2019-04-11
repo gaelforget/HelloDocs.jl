@@ -1,6 +1,6 @@
 # HelloDocs.jl
 
-This is based on the guide from <https://juliadocs.github.io/Documenter.jl/stable/>.
+This example is based on the `Documenter.jl` guide @ <https://juliadocs.github.io/Documenter.jl/stable/>
 
 ### 1) generate package
 
@@ -51,6 +51,4 @@ index.html
 
 ### 4) add docstring, etc examples and compile `make.jl`
 
-Docstrings were added in `src/HelloDocs.jl` and refs in `docs/src/index.md` before compiling `julia --color=yes make.jl` from within `docs/` in shell.
-
-Doing this added two docstrings (`GreetUser` and `greet`) to `docs/build/index.html` and issued a warning for `GreetYou` as expected.
+Docstrings were added in `src/HelloDocs.jl` and refs in `docs/src/index.md` before compiling `julia --color=yes make.jl` from within `docs/` in shell. Compilation then added two docstrings (`GreetUser` and `greet`) to `docs/build/index.html` and issued a warning as expected for `GreetYou`.
