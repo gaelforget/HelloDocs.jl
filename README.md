@@ -1,5 +1,7 @@
 # HelloDocs.jl
 
+This is based on the guide from <https://juliadocs.github.io/Documenter.jl/stable/>.
+
 ### 1) generate package
 
 ```
@@ -47,7 +49,7 @@ build/search:
 index.html
 ```
 
-### 4) add docstrings and compile `make.jl`
+### 4) add docstring, etc examples and compile `make.jl`
 
 Docstrings were added in `src/HelloDocs.jl` and refs in `docs/src/index.md` before compiling `julia --color=yes make.jl` from within `docs/` in shell.
 
