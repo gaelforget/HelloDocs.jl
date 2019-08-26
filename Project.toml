@@ -2,6 +2,3 @@ name = "HelloDocs"
 uuid = "7bd6f75e-5c60-11e9-2737-8d68234f8d89"
 authors = ["gaelforget <gforget@mit.edu>"]
 version = "0.1.1"
-
-[deps]
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"

@@ -7,15 +7,11 @@ This example is based on the `Documenter.jl` guide @ <https://juliadocs.github.i
 ```
 (v1.1) pkg> generate HelloDocs
 shell> cd HelloDocs
-(v1.1) pkg> activate .
-(HelloDocs) pkg> add Documenter
 ```
 
 ### 2) add documentation files
 
 ```
-(v1.1) pkg> add Documenter
-(v1.1) pkg> add DocumenterTools
 julia> using Documenter
 julia> using DocumenterTools
 julia> DocumenterTools.generate("HelloDocs.jl/docs")
@@ -28,7 +24,7 @@ index.md
 ### 3) compile empty doc
 
 ```
-shell> cd HelloDocs.jl/
+shell> cd HelloDocs.jl/docs/
 julia> makedocs(sitename="HelloDocs.jl Documentation")
 ```
 
